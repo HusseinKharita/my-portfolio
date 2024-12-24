@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: #BDD4E7;
+}
+.nav-link{
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #BDD4E7;
+    background-color: #212227;
+}
+.image-container {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    padding-right: 20px;
+    
+  }
+  .image-container img {
+    max-width: 700px; 
+    border-radius: 50%; 
+  }
+
+  @media (max-width: 768px) {
+    .image-container {
+      display: none; 
+    }
+  }
+.navbar-brand{
+    font-size: 1.24rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main{
+    background-color: #8693AB;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+    
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid #BDD4E7;
+    width: 40%;
+}
+.main  .bt1{
+    height: 35px;
+    width: 138px;
+    background-color:black ;
+    color:#AAB9CF ;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main  .bt1:hover{
+    background-color: rgb(61, 58, 58);
+    transition: 0.5s;
+
+}
+.main  .bt2{
+    height: 35px;
+    width: 138px;
+    background-color:#637074 ;
+    color:#BDD4E7 ;
+    outline: none;
+    border: 1px solid ;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main  .bt2:hover{
+    background-color: rgb(61, 58, 58);
+    transition: 0.5s;
+}
+.about img{
+    -webkit-box-shadow: 40px 12px 102px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 40px 12px 102px -3px rgba(0,0,0,0.75);
+box-shadow: 40px 12px 102px -3px rgba(0,0,0,0.75);
+}
+
+h1{
+    font-size: 6rem;
+    font-weight: 900;
+}
+.progress{
+    background-color: #8693AB;
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: felx;
+    height: 25px;
+    width: 100%;
+    -webkit-box-shadow: 20px 1px 38px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 20px 1px 38px 5px rgba(0,0,0,0.75);
+box-shadow: 20px 1px 38px 5px rgba(0,0,0,0.75);
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+.progress p{
+    color: white;
+    padding: 6px;
+}
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 88%;
+    }
+}
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 93%;
+    }
+}
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: #212227;
+    color: #BDD4E7;
+    border-radius: 4px;
+}
+.btn1:hover{
+    background-color: #637074;
+    color: aliceblue;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: #212227;
+    color: #BDD4E7;
+    border-radius: 4px;
+}
+.btn2:hover{
+    background-color: #637074;
+    color: aliceblue;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.control ul li{
+    list-style: none;
+    background-color: #212227;
+    padding: 5px 15px;
+    color: #BDD4E7 ;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.item{
+    position:relative;
+}
+.item:hover{
+    -webkit-box-shadow: 0px 6px 79px 21px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 79px 21px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 79px 21px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.item:hover:befor{
+    opacity: 1;
+    transition: 0.3s;
+}
+.contact .btn3{
+    background-color: #212227;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+}
+.btn3:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+footer{
+    background-color: #212227;
+    color: #8693AB;
+
+}
