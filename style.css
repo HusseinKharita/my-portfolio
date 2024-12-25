@@ -180,7 +180,7 @@ box-shadow: 20px 1px 38px 5px rgba(0,0,0,0.75);
 }
 .btn1{
     height: 40px;
-    width: 145px;
+    width: 100px;
     outline: none;
     border: none;
     background-color: #212227;
@@ -249,4 +249,13 @@ footer{
     background-color: #212227;
     color: #8693AB;
 
+}
+.button{
+   
+    background-color:black ;
+    color:#AAB9CF ;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
 }
